@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  💻<br>Ignite Feed - Italo Costa
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Resultado final do projeto](assets/image/preview.png)
 
-Currently, two official plugins are available:
+<h4 align="center"><a href="https://projeto-01-two.vercel.app/">Clique para visitar o projeto</a></h4>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📚 Saiba mais sobre a aplicação
 
-## Expanding the ESLint configuration
+A aplicação tem as seguintes funções:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Perfil:** A aplicação simula o mural de um perfil, de uma rede social;
+- **Posts e comentários:** Foram criados de dentro do sistema, dois posts diferentes e um comentário "padrão para estes posts";
+- **Campo de comentários:** É possivel adicionar um novo comentários nas publicações existentes;
+- **Deletar comentário:** Caso o usuário queira, é possivel excluir um comentário clicando no ícone de lixeira.;
+- **Aplauidir:** É possível aplaudir quantes vezes quiser clicando múltiplas vezes no ícone;
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 💼 Tecnologias utilizadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+
+- HTML;
+- Css (css modules);
+- JavaScript;
+- React;
+- TypeScript;
+
+---
+
+<h2>Autor</h2>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/costa-Italo">
+        <img src="./src/assets/perfil.jpg" width="100px;" alt="Foto de perfil Italo Costa"/><br>
+        <sub>
+          <b>Italo Costa</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
